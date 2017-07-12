@@ -10,11 +10,11 @@ end
 gem 'rails', '~> 5.1.1'
 # Use sqlite3 as the database for Active Record
 group :test, :development do
-  gem 'sqlite3',
+  gem 'sqlite3'
 end
 # 本番ではpostgressを使用する
 group :production do
-  gem 'pg', 
+  gem 'pg' 
   gem 'rails_12facter'
 end
 # Use Puma as the app server
