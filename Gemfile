@@ -14,8 +14,8 @@ group :test, :development do
 end
 # 本番ではpostgressを使用する
 group :production do
-  gem 'pg' 
-  gem 'rails_12facter'
+  gem 'pg'
+  gem 'rails_12factor'
 end
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
